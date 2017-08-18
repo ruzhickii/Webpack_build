@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack"
   },
-  "author": "",
+  "author": "Ruzhickii",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.23.1",
