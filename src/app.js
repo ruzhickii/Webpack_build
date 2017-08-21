@@ -1,1 +1,0 @@
-console.log('Hello, hello, its webpack 2');
