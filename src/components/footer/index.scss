@@ -1,0 +1,35 @@
+footer {
+    color: #fff;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    height: 115px;
+
+    nav {
+        margin: 0;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+
+            li {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: 70px;
+
+        nav {
+            display: none;
+        }
+    }
+
+    @media (max-width: 480px) {
+        height: auto;
+    }
+}
