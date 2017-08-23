@@ -1,13 +1,6 @@
-body{
-  background: #fff;
-}
+@import "../../scss/header.scss";
+@import "../../scss/footer.scss";
 
-*{
-  font-family: sans-serif;
-}
+@import "../../scss/main.scss";
 
-.test {
-  text-align: center;
-  background: #bbb7b7;
-  color: red;
-}
+
